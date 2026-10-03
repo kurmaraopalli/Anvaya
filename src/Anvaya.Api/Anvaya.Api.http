@@ -1,0 +1,6 @@
+@Anvaya.Api_HostAddress = http://localhost:5259
+
+GET {{Anvaya.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

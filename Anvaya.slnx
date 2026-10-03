@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Anvaya.Api/Anvaya.Api.csproj" />
+    <Project Path="src/Anvaya.Core/Anvaya.Core.csproj" />
+    <Project Path="src/Anvaya.Infrastructure/Anvaya.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Anvaya.Tests/Anvaya.Tests.csproj" />
+  </Folder>
+</Solution>

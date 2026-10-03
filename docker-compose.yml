@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  anvaya-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: anvaya-loyalty-engine
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: unless-stopped
